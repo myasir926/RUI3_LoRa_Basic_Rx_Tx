@@ -1,7 +1,7 @@
 bool tx_done = true;
 uint32_t lastSend, pingCounter = 0;
 
-#define PING_INTERVAL 30000 // 10 seconds
+#define PING_INTERVAL 30000 // 30 seconds
 
 void hexDump(uint8_t * buf, uint16_t len) {
   char alphabet[17] = "0123456789abcdef";
